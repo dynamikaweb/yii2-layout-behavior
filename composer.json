@@ -1,8 +1,8 @@
 {
-    "name": "dynamikaweb/yii2-template",
-    "description": "",
+    "name": "dynamikaweb/yii2-layout-behavior",
+    "description": "Controller behavior facilitates the use of dynamic layout.",
     "type": "yii2-extension",
-    "keywords": ["dynamika", "yii2"],
+    "keywords": ["dynamika", "yii2", "behavior"],
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -17,8 +17,8 @@
         }
     ],
     "support": {
-        "issues": "http://github.com/dynamikaweb/yii2-template/issues",
-        "source": "http://github.com/dynamikaweb/yii2-template"
+        "issues": "http://github.com/dynamikaweb/yii2-layout-behavior/issues",
+        "source": "http://github.com/dynamikaweb/yii2-layout-behavior"
     },
     "minimum-stability": "dev",
     "require": {
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dynamikaweb\\": "src"
+            "dynamikaweb\\layout\\": "src"
         }
     },
     "repositories": [
